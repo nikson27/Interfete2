@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+    <Button
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_x="160px"
+        android:layout_y="361px"
+        android:text="@string/absolute_btn1"
+        android:id="@+id/absoluteBtn2" />
+
+    <Button
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:layout_x="12px"
+        android:layout_y="361px"
+        android:text="@string/absolute_btn2"
+        android:id="@+id/absoluteBtn1" />
+</AbsoluteLayout>
